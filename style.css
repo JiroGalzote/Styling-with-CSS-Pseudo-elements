@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+     
+    background-color: #f4f4f4;
+}
+
+header.main-header {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+p.intro-paragraph {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px;
+    position: center;
+    left: 20px;
+}
+
+button.cta-button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+    margin: 20px auto;
+    position: relative;
+}
+
+button.cta-button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header.main-header {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+header.main-header::before, header.main-header::after {
+    content: " 💫";
+    color: #e69900;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header.main-header::before {
+    left: 10px;
+}
+
+header.main-header::after {
+    right: 10px;
+}
+
+p.intro-paragraph {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
+
+p.intro-paragraph::before, p.intro-paragraph::after {
+    content: '"';
+    color: #999;
+    font-size: 2em;
+    position: absolute;
+    top: -10px;
+}
+
+p.intro-paragraph::before {
+    left: -10px;
+}
+
+p.intro-paragraph::after {
+    right: -10px;
+}
+
+button.cta-button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+    margin: 20px auto;
+    position: relative;
+}
+
+button.cta-button:hover {
+    background-color: #0056b3;
+}
+
+button.cta-button::before  {
+    content: "👉 ";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+button.cta-button::after {
+    content: " 👈";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+button.cta-button::before {
+    left: -30px;
+}
+
+button.cta-button::after {
+    right: -30px;
+}
+img{
+    position: relative;
+    left: 680px;
+    bottom: 85px;
+    height: 250px;
+    rotate: 45deg ;
+}
+
+.point1{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: relative;
+  bottom: 260px;
+}
